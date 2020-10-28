@@ -1,0 +1,443 @@
+
+@media all and (min-width: 748px) {
+	
+	#modalContainer {
+		top:0px;	left:0px;	width:510px; height:510px;
+	}
+	#alertBox {
+		width:397px;
+		height:205px;
+		top:180px;
+		left:55px;
+	}
+	.btnTitle {
+		font-size: 22pt;
+		padding-top:5px;
+	}
+	.btnGray,
+	.btnBlack,
+	.btnNormal {
+		font-size: 18pt;
+		padding-top:8px;
+	}
+	.btnSmall {
+		font-size: 12pt;
+		padding-top:5px;
+	}
+	.btnSmall2 {
+		font-size: 12pt;
+		padding-top:12px;
+	}
+	.btnNumberBtn {
+	    font-size: 28pt;
+	}
+	#sp_mypuzzle td .notesTable {
+		width:50px;
+		height:48px;
+	}
+	#sp_mypuzzle td .notesTable td {
+		font-size:12px;
+		line-height: 17px;
+	}
+	
+	.CellBlack,
+	.CellNormalHigh,
+	.CellGiven,
+	.CellGivenHigh,
+	.CellNormal {
+		height:54px;
+	}
+	.CellSelect {
+		-moz-box-shadow: inset 0 0 5px 2px #555555;
+		-webkit-box-shadow: inset 0 0 5px 2px #555555;
+		box-shadow: inset 0 0 5px 2px #555555;
+	}
+
+}
+@media all and (min-width: 748px) and (orientation:portrait) {
+
+	#alertBox {
+		width:397px;
+		height:205px;
+		top:220px;
+		left:110px;
+	}
+	#sp_mypuzzle {
+		width:645px;
+		height:728px;
+	}
+	#sp_mypuzzle .outertable {
+		top:70px;	left:53px;	width:510px;	height:510px;
+		font-size: 28pt;
+	}
+	#numberList {
+		top:587px;	left:-4px;
+	}
+	#numberList li {
+		margin-left: 9px;
+		width:61px;
+		padding:3px 0 5px 0;
+		height:50px;
+	}
+	#btn_title {
+		top:2px;	left:2px;	width:240px;	height:42px;
+	}
+	#btn_sudoku {
+		top:2px;	left:2px;	width:110px;	height:42px;
+	}
+	#btn_str8ts {
+		top:2px;	left:131px;	width:110px;	height:42px;
+	}
+	#btn_restart {
+		top:2px;	left:260px;	width:110px;	height:42px;
+	}
+	#btn_new {
+		top:2px;  	left:390px;	width:110px;	height:42px;
+	}
+	#btn_pause {
+		top:2px;	left:520px;	width:110px;	height:42px;
+	}
+	.TimeBox {
+		top:47px;	left:520px;	width:110px;
+	}
+	/* BOTTOM OF SCREEN - PORTRAIT */
+	#btn_notes {
+		top:648px;	left:2px;	width:110px;	height:42px;
+	}
+	#btn_undo {
+		top:648px;	left:131px;	width:110px;	height:42px;
+	}
+	#btn_redo {
+		top:648px;	left:260px;	width:110px;	height:42px;
+	}
+	#btn_check {
+		top:648px;  left:390px;	width:110px;	height:42px;
+	}
+	#btn_help {
+		top:648px;	left:520px;	width:110px;	height:42px;
+	}
+	#puzzlenum {
+		position: absolute;
+		top:50px;	left:53px;	width:508px;
+		font-size: 11pt;
+}
+	.copyr {
+		left:5px;
+		top:695px;
+	}
+}
+@media all and (min-width: 810px) and (orientation:landscape) {
+	
+	#sp_mypuzzle {
+		top:0px;	left:0px;	width:810px; 	height:541px;
+	}
+	#sp_mypuzzle .outertable {
+		top:0px;	left:0px;	width:510px;	height:515px;
+		font-size: 28pt;
+	}
+	#numberList {
+		top: 147px;	left:525px;	width:350px;
+	}
+	#numberList li {
+		margin: 0px 13px 10px 0px;
+		padding:4px 0 5px 0;
+		width:83px;
+		height:50px;
+	}
+	/* LANDSCAPE - RIGHT COLUMN */
+	#btn_title {
+		top:2px;	left:525px;	width:275px;	height:44px;
+	}	
+	#btn_sudoku {
+		top:2px;	left:525px;	width:130px;	height:44px;
+	}
+	#btn_str8ts {
+		top:2px;	left:670px;	width:130px;	height:44px;
+	}
+	#btn_restart {
+		top:60px;	left:525px;	width:130px;	height:44px;
+	}
+	#btn_new {
+		top:60px;	left:670px;	width:130px;	height:44px;
+	}
+	/* LANDSCAPE - UNDER NUMBERS */
+	#btn_notes {
+		top:335px;	left:525px;	width:130px;	height:46px;
+	}
+	#btn_pause {
+		top:335px;	left:670px;	width:130px;	height:46px;
+	}
+	.TimeBox {
+		top:382px;	left:670px;	width:130px;	height:20px;
+		text-align:center;
+	}
+	#btn_undo {
+		top:407px;	left:525px;	width:130px;	height:44px;
+	}
+	#btn_redo {
+		top:407px;	left:670px;	width:130px;	height:44px;
+	}
+	#btn_check {
+		top:464px;	left:525px;	width:130px;	height:44px;
+	}
+	#btn_help {
+		top:464px;	left:670px;	width:130px;	height:44px;
+	}
+	#comphigh {
+		top:510px;	left:575px;	 
+	}
+	#comphightext {
+		top:510px;	left:600px;		 
+	}
+	#puzzlenum {
+		top:115px;	left:525px;	width:277px;
+		font-size: 11pt;
+	}
+	.copyr {
+		left:3px; /* premium = 43px, lite = 67px */
+		top:516px;
+	}
+}
+@media screen and (max-width: 747px) {
+	#modalContainer {
+		top:0px;	left:0px;	width:300px;	height:300px;
+	}
+	#alertBox {
+		width:340px;
+		height:205px;
+		left:25px;
+		top:130px;
+		font-size:12pt;
+		padding: 10px 20px;
+	}
+	#alertBox p {
+		font:1.0em 'Open Sans', verdana,arial;	
+	}
+	.btnNumberBtn {
+	    font-size: 14pt;
+	}
+}
+@media screen and (min-width: 321px) and (max-width: 747px) {
+	
+	#sp_mypuzzle {
+		width:345px;
+		height:520px;
+	}
+	#sp_mypuzzle .outertable {
+		top:70px;	left:5px;	width:335px;	height:335px;
+		font-size: 18pt;
+	}
+	.CellBlack,
+	.CellNormalHigh,
+	.CellGiven,
+	.CellGivenHigh,
+	.CellNormal {
+		height:32px;
+	}
+	.CellSelect {
+		-moz-box-shadow: inset 0 0 3px 2px #555555;
+		-webkit-box-shadow: inset 0 0 3px 2px #555555;
+		box-shadow: inset 0 0 3px 2px #555555;
+	}
+	.btnTitle,
+	.btnGray,
+	.btnBlack,
+	.btnNormal {
+		position:absolute;
+		font-size: 11pt;
+		padding-top:3px;
+	}
+	.btnSmall, .btnSmall2  {
+		font-size: 8pt;
+		/* http://pieroxy.net/blog/2014/10/11/the_quest_for_a_condensed_web_font.html */
+		font-family: /*iOS*/"AvenirNextCondensed-Bold", "Futura-CondensedExtraBold", /*MacOSX*/HelveticaNeue-CondensedBold, /*Ubuntu*/ "Ubuntu Condensed", "Liberation Sans Narrow",  /*Windows*/"Franklin Gothic Demi Cond", "Arial Narrow", /*Android*/sans-serif-condensed, /*Fallback*/Arial, "Trebuchet MS", "Lucida Grande", Tahoma, Verdana, sans-serif;
+		font-stretch: condensed;
+	}
+	.btnSmall2 {
+		padding-top:5px;
+	}
+	#numberList {
+		top:415px;	left:0px;
+	}
+	#numberList li {
+		margin-left:5px;
+		padding-top:5px;
+		width:33px;
+		height:33px;
+	}
+	#btn_title {
+		top:12px;	left:5px;	width:125px;	height:24px;
+		padding-top:2px;
+	}
+	#btn_sudoku {
+		top:12px;	left:5px;	width:60px;	height:24px;
+		padding-top:0px;
+	}
+	/* TOP OF SCREEN - PORTRAIT */
+	#btn_str8ts {
+		top:12px;	left:73px;	width:60px;	height:24px;
+	}
+	#btn_restart {
+		top:12px;	left:141px;	width:65px;	height:24px;
+	}
+	#btn_new {
+		top:12px;  	left:213px;	width:60px;	height:24px;
+	}
+	#btn_pause {
+		top:12px;	left:280px;	width:60px;	height:24px;
+	}
+	.TimeBox {
+		top:45px;	left:280px;	width:66px;
+	}
+	/* BOTTOM OF SCREEN - PORTRAIT */
+	#btn_help {
+		top:455px;	left:5px;	width:60px;	height:24px;
+	}
+	#btn_undo {
+		top:455px;	left:73px;	width:60px;	height:24px;
+	}
+	#btn_redo {
+		top:455px;	left:141px;	width:60px;	height:24px;
+	}
+	#btn_check {
+		top:455px;  left:211px;	width:60px;	height:24px;
+	}
+	#btn_notes {
+		top:455px;	left:280px;	width:60px;	height:24px;
+	}
+	#comphigh {
+		top:698px;	left:372px;
+	}
+	#comphightext {
+		top:698px;	left:400px;
+	}
+	#puzzlenum {
+		font-size: 8pt;
+		top:45px;	left:10px;	width:240px;
+	}
+	.copyr {
+		font-size: 5pt;
+		top:480px;	left:5px;
+	}
+	#sp_mypuzzle td .notesTable {
+		width:33px;
+	}
+	#sp_mypuzzle td .notesTable td {
+		font-size:9px;
+		line-height: 10px;
+	}
+}
+@media screen and (max-width: 320px) {
+
+	#modalContainer {
+		top:0px;	left:0px;	width:200px; height:200px
+	}
+	#alertBox {
+		width:250px;
+		height:185px;
+		left:25px;
+		font-size:12pt;
+	}
+	#sp_mypuzzle {
+		width:300px;
+		height:430px;
+	}
+	#sp_mypuzzle .outertable {
+		top:55px;	left:10px;	width:280px;	height:290px;
+		font-size: 16pt;
+	}
+	.CellBlack,
+	.CellNormalHigh,
+	.CellGiven,
+	.CellGivenHigh,
+	.CellNormal {
+		height:28px;
+	}
+	.CellSelect {
+		-moz-box-shadow: inset 0 0 2px 2px #555555;
+		-webkit-box-shadow: inset 0 0 2px 2px #555555;
+		box-shadow: inset 0 0 2px 2px #555555;
+	}
+	#numberList {
+		top:352px;	left:10px;
+	}
+	#numberList li {
+		margin-left:1px;
+		padding-top:4px;
+		width:30px;
+		height:30px;
+	}
+	.btnTitle,
+	.btnGray,
+	.btnBlack,
+	.btnNormal {
+		position:absolute;
+		font-size: 9pt;
+		border:1px solid #E0E0E0;
+	}
+	.btnSmall {
+		font-size: 8pt;
+		font-family: 'Arial Narrow', arial, verdana, sans-serif;
+	}
+	.btnSmall2 {
+		font-size: 8pt;
+		padding-top:5px;
+		font-family: 'Arial Narrow', arial, verdana, sans-serif;
+	}
+	#btn_sudoku {
+		top:3px;	left:10px;	width:55px;	height:24px;
+	}
+	#btn_str8ts {
+		top:3px;	left:69px;	width:60px;	height:24px;
+	}
+	#btn_restart {
+		top:3px;	left:134px;	width:52px;	height:24px;
+	}
+	#btn_new {
+		top:3px;  	left:191px;	width:40px;	height:24px;
+	}
+	#btn_pause {
+		top:3px;	left:237px;	width:50px;	height:24px;
+	}
+	.TimeBox {
+		font-size: 7pt;
+		top:35px;	left:237px;	width:45px;
+	}
+	/* BOTTOM OF SCREEN - PORTRAIT */
+	#btn_help {
+		left:10px;	top:390px;	width:50px;	height:24px;
+	}
+	#btn_undo {
+		top:390px;	left:67px;	width:50px;	height:24px;
+	}
+	#btn_redo {
+		top:390px;	left:124px;	width:50px;	height:24px;
+	}
+	#btn_check {
+		top:390px; 	left:181px;	width:50px;	height:24px;
+	}
+	#btn_notes {
+		top:390px;	left:237px;	width:50px;	height:24px;
+	}
+	#comphigh {
+		top:698px;	left:372px;
+	}
+	#comphightext {
+		top:698px;	left:400px;
+	}
+	#puzzlenum {
+		font-size: 7pt;
+		top:36px;	left:10px;	width:240px;
+	}
+	.copyr {
+		font-size: 5pt;
+		top:415px;	left:15px;
+	}
+	#sp_mypuzzle td .notesTable {
+		width:29px;
+	}
+	#sp_mypuzzle td .notesTable td {
+		font-size:8px;
+		line-height: 9px;
+	}
+}

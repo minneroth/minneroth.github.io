@@ -1,0 +1,14 @@
+var dataurl = "https://www.str8ts.com/feed/fetchStr8tsDAILYJSon.asp?accid=3489";
+    var script = document.createElement("script");
+    script.setAttribute("src",dataurl);
+    script.setAttribute("type","text/javascript");
+	document.body.appendChild(script);
+<script src=​"https:​/​/​www.str8ts.com/​feed/​fetchStr8tsDAILYJSon.asp?accid=3489" type=​"text/​javascript">​</script>​
+var dataurl = "https://www.str8ts.com/feed/fetchStr8tsDAILYJSon.asp?accid=3489";
+    var script = document.createElement("script");
+    script.setAttribute("src",dataurl);
+    script.setAttribute("type","text/javascript");
+	document.body.appendChild(script);
+console.log(document.body.appendChild(script));
+VM11373:6 <script src=​"https:​/​/​www.str8ts.com/​feed/​fetchStr8tsDAILYJSon.asp?accid=3489" type=​"text/​javascript">​</script>​
+undefined

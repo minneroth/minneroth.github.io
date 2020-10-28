@@ -1,0 +1,258 @@
+/*
+
+Sizes and Positions have been moved into puzzle_sizes.css
+
+*/
+
+#modalContainer {
+	background-color:transparent;
+	z-index:50;
+	background-image:url(https://www.str8ts.com/newplayer/tp.png); /* required by MSIE to prevent actions on lower z-index elements */
+}
+#alertBox {
+	z-index:55;
+	position:absolute;
+	background: #333333;
+	border-radius:1em;
+	padding:1em; 
+}
+#alertBox h1 {
+	margin:0;
+	font:bold 1.2em verdana,arial;
+	background-color:#3377aa;
+	color:#FFF;
+	border-bottom:1px solid #000;
+	padding:2px 0 2px 5px;
+}
+#alertBox p {
+	font:1.15em verdana,arial;
+	height:50px;
+	padding:5px;
+	vertical-align:middle;
+	text-align:center;
+	margin-top:15px;
+	color:#ffffff;
+	text-align: left;
+}
+#alertBox #closeBtn, #alertBox #noBtn, #alertBox #yesBtn {
+	margin:40px 0 0 0;
+	width: 94px;
+}
+.black_overlay {
+	display: none;
+	position: relative;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:45;
+	-moz-opacity: 0.8;
+	opacity:.60;
+	filter: alpha(opacity=80);
+}
+.linearBg2  
+{
+	/* fallback */ 
+	background-color: #e0e0e0; 
+	background: url(http://www.str8ts.com/newplayer/images/linear_bg_2.png); 
+	background-repeat: repeat-x; 
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#e0e0e0)); 
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ffffff, #e0e0e0); 
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ffffff, #e0e0e0); 
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ffffff, #e0e0e0); 
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ffffff, #e0e0e0); 
+}
+#sp_mypuzzle {
+	position:relative;
+	-webkit-text-size-adjust:none;
+	background-color:#ffffff;
+	text-align:center;
+	box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/Copy of UIWebView */
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	font-family: Arial, verdana, sans-serif;
+}
+#sp_mypuzzle .outertable {
+    padding:0;
+    position:absolute;
+    table-layout:fixed;
+    border-spacing:0;
+    border-collapse:separate;
+    empty-cells:show;
+    text-align:center;
+    font-family: Arial, verdana, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    border: 1px solid #000000;
+}
+#sp_mypuzzle td .notesTable {
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	table-layout:fixed;
+	border:none;
+	border-spacing: 0px 0px;
+	border-collapse:collapse;
+}
+#sp_mypuzzle td .notesTable td {
+	padding:0;
+	font-weight:normal;
+	text-align:center;
+}
+.CellBlack,
+.CellNormalHigh,
+.CellGiven,
+.CellGivenHigh,
+.CellNormal {
+	margin: 0;
+	padding:0;
+	text-align:center;
+	box-sizing: border-box; 
+}
+.CellBlack {
+	color: white;
+    border: 1px solid #444444;
+	background-color: #000000;
+}
+.CellNormalHigh {
+	color: #226c9c;
+	background-color:#eeffdd;
+}
+.CellGiven {
+	color: #222222;
+	background-color:#ffffff;
+}
+.CellGivenHigh {
+	color: #222222;
+	background-color:#eeffdd;
+}
+.CellNormal {
+	color: #226c9c;
+	background-color:#ffffff;
+}
+.CellError {
+	margin: 0;
+	padding:2;
+	color: red;
+}
+#numberList {
+	position:absolute;
+	padding: 0;
+	margin: 0;
+	list-style-type:none;
+}
+#numberList li {
+	overflow:hidden;
+	float:left;
+    color:#222222;
+	line-height: 1em;
+}
+.btnNumberBtn {
+    font-family: Arial, verdana, sans-serif;
+    font-weight: bold;
+	border:2px solid #E0E0E0;
+	vertical-align:middle;
+	color:#000000;
+	box-sizing: border-box; 
+	line-height: 1em;
+}
+.btnNormal,.btnBlack,.btnGray,.btnSmall,.btnSmall2 {
+    font-family: arial, verdana, sans-serif;
+    font-weight: normal;
+	position:fixed;
+	box-sizing: border-box; 
+	line-height: 1em;
+}
+.btnTitle {
+    font-family: arial, verdana, sans-serif;
+	font-weight:bold;
+	position:fixed;
+	box-sizing: border-box; 
+	line-height: 1em;
+}
+.btnTitle,.btnNormal {
+	border:2px solid #E0E0E0;
+	background-color: #ffffff;
+	color:#000000;
+}
+.btnBlack {
+	border:2px solid #000000;
+	background-color: #000000;
+	color: #ffffff;
+}
+.btnGray {
+	border:2px solid #DEDEDE;
+	background-color: #DEDEDE;
+	color: #A4A4A4;
+}
+.btnSmall, .btnSmall2 {
+    font-size: 10pt;
+	border:2px solid #E0E0E0;
+	background-color: #ffffff;
+	line-height:1em;
+	color:#000000;
+}
+.copyr {
+    color: #888888;
+	font-size: 7pt;
+	font-family: Arial, verdana, sans-serif;
+	text-align:left;
+	vertical-align:bottom;
+	font-weight:normal;
+	background-color: transparent;
+	position: absolute;
+}
+#puzzlenum {
+	position:absolute;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+    font-family: Arial, Helvetica, verdana, sans-serif;
+	color: #000000;
+    text-align:left;
+	font-weight:normal;
+}
+#btn_title,
+#btn_sudoku,
+#btn_str8ts,
+#btn_new,
+#btn_pause,
+#btn_restart,
+#btn_help,
+#btn_undo,
+#btn_redo,
+#btn_check,
+#btn_notes {
+	position: absolute;
+	margin:0;
+}
+.TimeBox {
+	position: absolute;
+	font-family:verdana, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color:#aaaaaa;
+}
+#comphigh {
+	position:fixed;
+}
+#comphightext {
+	position:fixed;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+    font-family: Arial, Helvetica, verdana, sans-serif;
+    font-size: 10pt;
+	color: #888888;
+	font-weight:normal;
+}
+
